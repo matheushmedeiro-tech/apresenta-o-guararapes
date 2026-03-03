@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: apresentacao-toras-yolov8
+    env: static
+    buildCommand: npm install && npm run build
+    staticPublishPath: dist
+    pullRequestPreviewsEnabled: false
