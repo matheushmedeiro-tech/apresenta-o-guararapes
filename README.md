@@ -16,7 +16,13 @@ npm run build
 npm run preview
 ```
 
-## Deploy no Render (apresentação React/Vite)
+## Tema visual (inspirado na Guararapes)
+
+O projeto usa uma identidade visual inspirada no universo da Guararapes (paleta verde/madeira e estilo corporativo), mantendo conteúdo e layout autorais.
+
+## Deploy
+
+### Render (já configurado)
 
 Este projeto já está pronto para deploy no Render com o arquivo `render.yaml`.
 
@@ -30,6 +36,15 @@ Comandos usados no deploy:
 
 - Build: `npm install && npm run build`
 - Publish directory: `dist`
+
+### Vercel (configuração adicionada)
+
+Também é possível publicar na Vercel com o arquivo `vercel.json`:
+
+1. Suba o projeto no GitHub.
+2. Na Vercel, clique em **Add New...** → **Project**.
+3. Importe o repositório e mantenha as configurações padrão de Vite.
+4. Clique em **Deploy**.
 
 Observação: o arquivo `apresentacao-offline.html` é uma versão alternativa local/offline e não é necessária para o deploy do sistema React.
 
